@@ -1,0 +1,15 @@
+.space-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  /* jpg로 바로 받아오니 로딩이 느려 다운 후 webp로 변환, */
+  background-image: url("../../public/images/spaceBackground.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
